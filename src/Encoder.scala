@@ -6,12 +6,7 @@ import scala.swing.event.{ButtonClicked, EditDone}
  * Created by hanxue on 9/17/13.
  */
 object Encoder extends SimpleSwingApplication {
-  def newField = new TextField {
-    text = " "
-    columns = 20
-  }
 
-//  val contents = newField
   val input = new TextField {
     text = ""
     columns = 50
